@@ -1,0 +1,114 @@
+.bodyindex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    min-height: 100vh;
+}
+
+.imgindex {
+    margin-top: 95px; 
+    margin-bottom: 35px;
+    border: 12px solid white;
+}
+
+.containerindex {
+    width: 25%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.h2index {
+    text-align: center;
+    color: #333;
+}
+
+.inputindex[type="email"], .inputindex[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttonindex button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonindex button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-passwordindex {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.new-accountindex {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.aindex {
+    color: #007bff;
+    text-decoration: none;
+}
+.bodyCreate {
+    margin: 30;
+    padding: 40;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1c357a, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCreate {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 23%; /* Tamanho ajustado */
+    text-align: center;
+}
+.containerCreate h2 {
+    margin: 0 0 10px; /* Margin ajustado */
+    padding: 15px 0; /* Padding ajustado */
+    background-color: #1c357a; /* Azul mais forte */
+    color: #fff;
+    border-radius: 8px 8px 0 0; /* Borda superior arredondada */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espaçamento ajustado */
+}
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 13px;
+    color: #333;
+}
+.form-group input {
+    width: 80%;
+    padding: 8px; /* Tamanho ajustado */
+    border: 1px solid #1c357a; /* Azul mais forte */
+    border-radius: 0 0 4px 4px; /* Borda inferior arredondada */
+}
+.btnCreate {
+    background-color: #1c357a; /* Azul mais forte */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
