@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to left, white 90%, #1c357a 10%);
+    min-height: 100vh;
+    display: flex;
+}
+
+.content {
+    background-color: #1c357a; /* Azul bem escuro */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+h1 {
+    margin-top: 0;
+    color: white; /* Texto do h1 em branco */
+}
+
+p {
+    font-size: 1.2em; /* Aumentando o tamanho da fonte do parágrafo */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0; /* Aumentando a distância entre os botões */
+    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 50%; /* Botões ocupam metade da largura da página */
+}
+
+.menu-button:hover {
+    background-color: #2980b9;
+}
